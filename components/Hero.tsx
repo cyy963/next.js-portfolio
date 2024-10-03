@@ -37,7 +37,7 @@ export default function Hero() {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I'm Cyrus, a Full Stack Developer based in New Zealand
+            Hi, I&apos;m Cyrus, a Full Stack Developer based in New Zealand
           </p>
           <a href="#about">
             <MagicButton
