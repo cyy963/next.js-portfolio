@@ -1,4 +1,4 @@
-import { FaLocationArrow } from "react-icons/fa";
+import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
@@ -42,7 +42,7 @@ export default function Hero() {
           <a href="#projects">
             <MagicButton
               title="My Recent Projects"
-              icon={<FaLocationArrow />}
+              icon={<FaLocationArrow className="rotate-[135deg]"/>}
               position="right"
             />
           </a>
