@@ -1,6 +1,5 @@
 import { workExperience } from "@/data";
 import { Button } from "./ui/MovingBorder";
-import { BackgroundGradientAnimation } from "./ui/GradientBg";
 
 export default function Experience() {
   return (
