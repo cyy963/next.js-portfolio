@@ -9,7 +9,7 @@ export default function RecentProjects() {
         Recent
         <span className="bg-custom-gradient bg-clip-text text-transparent animate-gradient-move bg-[length:200%_200%]"> Projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-2 md:gap-y-8 mt-2">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-10 md:gap-y-8 lg:gap-y-16 mt-2">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
             key={id}

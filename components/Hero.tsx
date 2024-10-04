@@ -5,7 +5,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 export default function Hero() {
   return (
-    <div className="pb-20 pt-36">
+    <div className="pb-10 pt-36">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -28,21 +28,21 @@ export default function Hero() {
       </div>
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <h2 className="uppercase tracking-widest text-xs text-center text-blue max-w-80">
-            Dynamic Web Magic with Next.js
+          <h2 className="uppercase tracking-widest text-xs text-center text-blue text-nowrap">
+            Dynamic Web Magic built with Next.js & Tailwind
           </h2>
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
             words="Transforming Concepts into Seamless User-Experiences"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+          <p className="text-center md:tracking-wider mb-10 text-sm md:text-lg lg:text-2xl">
             Hi, I&apos;m Cyrus, a Full Stack Developer based in New Zealand
           </p>
           <a href="#projects">
             <MagicButton
               title="My Recent Projects"
-              icon={<FaLocationArrow className="rotate-[135deg]"/>}
+              icon={<FaLocationArrow className="rotate-[135deg] mb-1"/>}
               position="right"
             />
           </a>

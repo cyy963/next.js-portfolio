@@ -2,14 +2,15 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
+  { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication. ",
-    description: "Tech enthusiast with a passion for design and development.",
+    title: "I prioritize client collaboration, fostering open communication, and adhere to industry best practices",
+    description: "Tech enthusiast with a passion for design and development",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -18,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm flexible with time zone communications and experienced with remote work",
+    title: "I'm flexible with time zones and experienced with remote work",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,7 +29,7 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
+    title: "My Tech Stack",
     description: "I constantly try to improve",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -76,7 +77,7 @@ export const projects = [
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    // link: "/ui.earth.com",
   },
   {
     id: 2,
@@ -84,7 +85,7 @@ export const projects = [
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    // link: "/ui.yoom.com",
   },
   {
     id: 3,
@@ -92,7 +93,7 @@ export const projects = [
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    // link: "/ui.aiimg.com",
   },
   {
     id: 4,
@@ -100,7 +101,7 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    // link: "/ui.apple.com",
   },
 ];
 
@@ -156,19 +157,19 @@ export const companies = [
     img: "/MR-logo.svg",
     // nameImg: "",
   },
-  {
-    id: 2,
-    name: "Oasis Aero",
-    img: "/MR-logo.svg",
-    // nameImg: "",
-  },
+  // {
+  //   id: 2,
+  //   name: "Oasis Aero",
+  //   img: "/oasis-aero-logo.png",
+  //   // nameImg: "",
+  // },
 ];
 
 export const workExperience = [
   {
     id: 1,
     title: "Full Stack Engineer Intern",
-    desc: "Led the development team in building a full stack web-based application. Designed and developed the software solution architecture and database, and deployed the application via Azure.",
+    desc: "Led the developer team in building a full-stack, web-based application. Designed the software architecture and database structure, developed the application, and deployed it via Azure.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
