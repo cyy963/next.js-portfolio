@@ -36,7 +36,7 @@ export default function Hero() {
             words="Transforming Concepts into Seamless User-Experiences"
           />
 
-          <p className="text-center md:tracking-wider mb-10 text-sm md:text-lg lg:text-2xl">
+          <p className="text-center md:tracking-wider mb-10 text-sm font-medium md:text-lg lg:text-2xl">
             Hi, I&apos;m Cyrus, a Full Stack Developer based in New Zealand
           </p>
           <a href="#projects">

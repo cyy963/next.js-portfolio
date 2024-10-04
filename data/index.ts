@@ -9,8 +9,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication, and adhere to industry best practices",
-    description: "Tech enthusiast with a passion for design and development",
+    title: "I prioritize client collaboration, fostering open communication, and adhere to industry best practices.",
+    description: "Tech enthusiast with a passion for design and development.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -19,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm flexible with time zones and experienced with remote work",
+    title: "I'm flexible with time zones and experienced with remote work.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -29,7 +29,7 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My Tech Stack",
+    title: "My Tech Stack.",
     description: "I constantly try to improve",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",

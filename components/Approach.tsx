@@ -10,7 +10,7 @@ export default function Approach() {
       <h1 className="heading">
         My <span className="bg-custom-gradient bg-clip-text text-transparent animate-gradient-move bg-[length:200%_200%]">Approach</span>
       </h1>
-      <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
+      <div className="my-16 flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}

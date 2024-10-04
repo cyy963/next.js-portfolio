@@ -34,7 +34,7 @@ export default function Footer() {
           digital presence to the next level?
         </h1> */}
 
-        <div className="relative flex justify-center items-center overflow-hidden h-[400px] md:w-[500px] w-[90%] rounded-3xl border border-white/[0.3]">
+        <div className="relative flex justify-center items-center overflow-hidden h-[400px] md:w-[500px] w-[90%] rounded-3xl border border-white/[0.1]">
           <BackgroundGradientAnimation></BackgroundGradientAnimation>
           <div className="relative h-full w-full flex justify-evenly items-center flex-col">
             {/* <div className="absolute -bottom-9 -right-[120px]"> */}
@@ -76,13 +76,13 @@ export default function Footer() {
               href={profile.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-white-100"
+              className="w-11 h-11 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border-2 border-white-100"
             >
               <img
                 src={profile.img}
                 alt={`icon-${profile.id}`}
-                width={20}
-                height={20}
+                width={25}
+                height={25}
               />
             </a>
           ))}

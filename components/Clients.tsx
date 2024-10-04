@@ -7,7 +7,7 @@ export default function Clients() {
       <h1 className="heading">
         Kind Words from <span className="bg-custom-gradient bg-clip-text text-transparent animate-gradient-move bg-[length:200%_200%]">Satisfied Clients</span>
       </h1>
-      <div className="flex flex-col items-center max-lg: mt-10">
+      <div className="flex flex-col items-center max-lg: mt-16">
         <InfiniteMovingCards
           items={testimonials}
           direction="right"
