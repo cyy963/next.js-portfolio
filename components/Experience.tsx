@@ -1,11 +1,15 @@
 import { workExperience } from "@/data";
 import { Button } from "./ui/MovingBorder";
+import { BackgroundGradientAnimation } from "./ui/GradientBg";
 
 export default function Experience() {
   return (
-    <div className="py-20" id="testimonials">
+    <div className="pb-20 pt-10" id="experience">
+
       <h1 className="heading">
-        My <span className="text-purple">work experience</span>
+      {/* <BackgroundGradientAnimation> */}
+        My <span className="bg-custom-gradient bg-clip-text text-transparent animate-gradient-move bg-[length:200%_200%]">Experience</span>
+      {/* </BackgroundGradientAnimation> */}
       </h1>
       <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
         {workExperience.map((card) => (

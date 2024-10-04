@@ -4,12 +4,12 @@ import { FaLocationArrow } from "react-icons/fa";
 
 export default function RecentProjects() {
   return (
-    <div className="py-20" id="projects">
+    <div className="pt-20" id="projects">
       <h1 className="heading">
-        A small selection of{" "}
-        <span className="text-purple">recent projects</span>
+        Recent
+        <span className="bg-custom-gradient bg-clip-text text-transparent animate-gradient-move bg-[length:200%_200%]"> Projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-2 md:gap-y-8 mt-2">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
             key={id}
@@ -42,7 +42,7 @@ export default function RecentProjects() {
                   ))}
                 </div>
                 <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">Check Live Site</p>
+                  <p className="flex lg:text-xl md:text-xs text-sm bg-custom-gradient bg-clip-text text-transparent animate-gradient-move bg-[length:200%_200%]">Check Live Site</p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
               </div>

@@ -7,27 +7,44 @@ export default function Footer() {
     <footer className="w-full pt-10 mb-[30px] pb-10" id="contact">
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital presence to the next level?
+          Ready to take <span className="bg-custom-gradient bg-clip-text text-transparent animate-gradient-move bg-[length:200%_200%]">your</span> digital
+          presence to the next level?
         </h1>
-        <p className="text-white-200 md:mt-10 my-5">Reach out to me today and let&apos;s discuss how I can help you achieve your goals.</p>
+        <p className="text-white-200 md:mt-10 my-5">
+          Reach out to me today and let&apos;s discuss how I can help you
+          achieve your goals.
+        </p>
         <a href="mailto:cyrusw369@gmail.com">
-          <MagicButton 
+          <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
             position="right"
           />
-        </a>     
+        </a>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center gap-9 flex-col-reverse">
-        <p className="md:text-base text-sm md:font-normal font-light">Copyright © 2024 Cyrus</p>
+        <p className="md:text-base text-sm md:font-normal font-light">
+          COPYRIGHT © 2024 CYRUSKYWALKER
+        </p>
         <div className="flex items-center md:gap-3 gap-6">
           {socialMedia.map((profile) => (
-            <div key={profile.id} className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-full border border-white-100">
-              <img src={profile.img} alt={profile.id} width={20} height={20} />
-            </div>
+            <a
+              key={profile.id}
+              href={profile.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-white-100"
+            >
+              <img
+                src={profile.img}
+                alt={`icon-${profile.id}`}
+                width={20}
+                height={20}
+              />
+            </a>
           ))}
         </div>
       </div>
     </footer>
-  )
+  );
 }

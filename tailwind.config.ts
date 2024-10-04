@@ -26,6 +26,9 @@ const config = {
       },
     },
     extend: {
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(to right, #00CCFF, #004687, #CBACF9, #720E9E)', // Your custom gradient
+      },          
       colors: {
         black: {
           DEFAULT: "#000",
@@ -39,7 +42,9 @@ const config = {
           200: "#C1C2D3",
         },
         blue: {
-          "100": "#E4ECFF",
+          DEFAULT: "#E4ECFF",
+          100: "#00FFFF",
+          200: "#00CCFF",
         },
         purple: "#CBACF9",
         border: "hsl(var(--border))",
@@ -82,6 +87,11 @@ const config = {
         sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
+        gradientMove: {
+          '0%': { 'background-position': '0% 50%' },
+          '50%': { 'background-position': '100% 50%' },
+          '100%': { 'background-position': '0% 50%' },
+        },
         "accordion-down": {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
@@ -148,6 +158,7 @@ const config = {
         },
       },
       animation: {
+        'gradient-move': 'gradientMove 15s ease infinite',
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         spotlight: "spotlight 2s ease .75s 1 forwards",
