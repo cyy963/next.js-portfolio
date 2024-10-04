@@ -81,8 +81,7 @@ export default function Footer() {
               <img
                 src={profile.img}
                 alt={`icon-${profile.id}`}
-                width={25}
-                height={25}
+                width={22}                
               />
             </a>
           ))}
