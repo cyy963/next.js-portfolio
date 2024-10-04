@@ -2,7 +2,6 @@ import { FaLocationArrow } from "react-icons/fa";
 import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-import { TextRevealCard } from "./ui/TextRevealCard";
 
 export default function Hero() {
   return (
