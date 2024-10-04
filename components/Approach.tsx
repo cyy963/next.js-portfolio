@@ -12,22 +12,29 @@ export default function Approach() {
       </h1>
       <div className="my-16 flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card
-          title="Planning & Strategy"
+          title="Planning & Design"
           icon={<AceternityIcon order="Phase 1" />}
           des="We'll collaborate to map out your website's goals, target audience, 
           and key functionalities. We'll discuss things like site structure, 
           navigation, and content requirements."
         >
           <CanvasRevealEffect
-            animationSpeed={5.1}
-            containerClassName="bg-emerald-900"
+            animationSpeed={3}
+            containerClassName="bg-black"
+            colors={[
+              [72, 236, 153],
+              [121, 232, 121],
+            ]}
+            dotSize={2}
           />
+          {/* Radial gradient for the cute fade */}
+          <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
         </Card>
         <Card
           title="Development & Progress Update"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-        coding. From initial sketches to polished code, I keep you updated
+          des="Once we agree on the plan & design, I'll set the up the CI/CD pipeline and cue my lofi playlist and dive into
+        coding. From initial wireframes to polished code, I keep you updated
         every step of the way."
         >
           <CanvasRevealEffect
@@ -43,17 +50,19 @@ export default function Approach() {
           <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
         </Card>
         <Card
-          title="Development & Launch"
+          title="Iterate & Launch"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-        I'll translate everything into functional code, building your website
-        from the ground up."
+          des="This is where the magic happens! Based on user testing and feedback, 
+        I'll iterate over the project and launch it when you're happy with the result."
         >
           <CanvasRevealEffect
             animationSpeed={3}
-            containerClassName="bg-sky-600"
+            containerClassName="bg-black"
             colors={[[125, 211, 252]]}
+            dotSize={2}
           />
+          {/* Radial gradient for the cute fade */}
+          <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
         </Card>
       </div>
     </section>
