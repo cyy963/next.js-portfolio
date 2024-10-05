@@ -3,7 +3,7 @@ import { Button } from "./ui/MovingBorder";
 
 export default function Experience() {
   return (
-    <div className="pb-20 pt-10" id="experience">
+    <div className="my-28" id="experience">
 
       <h1 className="heading">
       {/* <BackgroundGradientAnimation> */}

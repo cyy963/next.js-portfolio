@@ -25,7 +25,7 @@ export default function Footer() {
     }, 5000); // 3000 ms = 3 seconds
   };
   return (
-    <footer className="w-full pt-5 mb-[30px] pb-10" id="contact">
+    <footer className="w-full mt-16 mb-14" id="contact">
       <div className="flex flex-col items-center justify-center gap-10">
         {/* <h1 className="heading lg:max-w-[45vw]">
           Ready to take{" "}

@@ -3,7 +3,7 @@ import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 
 export default function Grid() {
   return (    
-    <section id="about">
+    <div id="about" className="mb-28 mt-16">
       <BentoGrid>
         {gridItems.map(({id, title, description, className, img, imgClassName, titleClassName, spareImg }) => (
           <BentoGridItem 
@@ -19,6 +19,6 @@ export default function Grid() {
           />
         ))}
       </BentoGrid>
-    </section>
+    </div>
   )
 }

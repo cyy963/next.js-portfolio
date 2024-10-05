@@ -3,7 +3,7 @@
 import { navItems } from "@/data";
 
 import Hero from "@/components/Hero";
-import Grid from "@/components/Grid";
+import Grid from "@/components/About";
 import Footer from "@/components/Footer";
 import Clients from "@/components/Clients";
 import Approach from "@/components/Approach";
@@ -19,9 +19,9 @@ const Home = () => {
         <Hero />
         <Grid />
         <RecentProjects />
-        <Clients />
         <Experience />
         <Approach />
+        <Clients />
         <Footer />
       </div>
     </main>

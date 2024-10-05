@@ -6,7 +6,7 @@ import { CanvasRevealEffect } from "@/components/ui/CanvasRevealEffect";
 
 export default function Approach() {
   return (
-    <section className="w-full pt-10">
+    <section className="w-full my-28">
       <h1 className="heading">
         My <span className="bg-custom-gradient bg-clip-text text-transparent animate-gradient-move bg-[length:200%_200%]">Approach</span>
       </h1>
@@ -85,7 +85,7 @@ const Card = ({
     <div
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      className="border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative lg:h-[35rem] rounded-3xl"
+      className="border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2]  min-h-[220px] max-w-sm w-full mx-auto p-4 relative lg:h-[35rem] rounded-3xl"
     >
       <Icon className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
       <Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />
