@@ -21,7 +21,8 @@ export default function Footer() {
     // Reset the clicked state to false after 3 seconds (3000ms)
     setTimeout(() => {
       setClicked(false);
-    }, 3000); // 3000 ms = 3 seconds
+      console.log({clicked})
+    }, 5000); // 3000 ms = 3 seconds
   };
   return (
     <footer className="w-full pt-5 mb-[30px] pb-10" id="contact">
@@ -67,7 +68,7 @@ export default function Footer() {
       </div>
       <div className="flex mt-16 md:flex-row justify-between items-center gap-9 flex-col-reverse">
         <p className="md:text-base text-sm md:font-normal font-light">
-          COPYRIGHT © 2024 CYRUSKYWALKER
+          Copyright © 2024 Cyruskywalker.Design
         </p>
         <div className="flex items-center md:gap-3 gap-6">
           {socialMedia.map((profile) => (
