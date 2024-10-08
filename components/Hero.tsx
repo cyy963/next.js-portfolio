@@ -1,6 +1,6 @@
 import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./ui/MagicButton";
-import { Spotlight } from "./ui/Spotlight";
+// import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import { ShootingStars } from "./ui/ShootingStars";
 import { StarsBackground } from "./ui/StarsBg";
