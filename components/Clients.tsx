@@ -5,7 +5,7 @@ export default function Clients() {
   return (
     <div className="my-28" id="testimonials">
       <h1 className="heading">
-        Kind Words from <span className="bg-custom-gradient bg-clip-text text-transparent animate-gradient-move bg-[length:200%_200%]">Clients</span>
+        Kind Words from <span className="bg-custom-gradient bg-clip-text text-transparent animate-gradient-move bg-[length:200%_200%]">Clients & Mentors</span>
       </h1>
       <div className="flex flex-col items-center max-lg: mt-16">
         <InfiniteMovingCards
