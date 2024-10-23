@@ -183,7 +183,7 @@ export const workExperience = [
   {
     id: 2,
     title: "Contract Full Stack Developer",
-    desc: "Designed UX/UI for clients and developed features using modern frontend and backend technologies. Applied agile practices and mindsets.",
+    desc: "Designed UX/UI for clients and developed features using modern frontend and backend technologies.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
