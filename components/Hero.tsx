@@ -7,7 +7,7 @@ import { StarsBackground } from "./ui/StarsBg";
 
 export default function Hero() {
   return (
-    <div className="mb-28 mt-56">
+    <div className="mb-28 mt-56 md:mt-72">
       <ShootingStars />
       <StarsBackground />
       {/* <div>
