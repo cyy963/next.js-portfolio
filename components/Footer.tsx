@@ -26,23 +26,30 @@ export default function Footer() {
   return (
     <footer className="w-full flex flex-col items-center mt-16 mb-20" id="contact">
       <div className="flex flex-col items-center justify-center gap-10">
-        {/* <h1 className="heading lg:max-w-[45vw]">
-          Ready to take{" "}
-          <span className="bg-custom-gradient bg-clip-text text-transparent animate-gradient-move bg-[length:200%_200%]">
-            your
-          </span>{" "}
-          digital presence to the next level?
-        </h1> */}
+      {/* <h1 className="heading lg:max-w-[45vw]">
+          Ready to take <span className="text-purple">your</span> digital
+          presence to the next level?
+        </h1>
+        <p className="text-white-200 md:mt-10 my-5 text-center">
+          Reach out to me today and let&apos;s discuss how I can help you
+          achieve your goals.
+        </p>
+        <a href="mailto:contact@jsmastery.pro">
+          <MagicButton
+            title="Let's get in touch"
+            icon={<SiMinutemailer />}
+            position="right"
+          />
+        </a> */}
 
         <div className="relative flex justify-center items-center overflow-hidden h-[400px] md:w-[500px] w-[90%] rounded-3xl border border-white/[0.1]">
           <BackgroundGradientAnimation></BackgroundGradientAnimation>
           <div className="relative h-full w-full flex justify-evenly items-center flex-col">
-            {/* <div className="absolute -bottom-9 -right-[120px]"> */}
             <div className="font-sans font-bold text-3xl md:text-4xl lg:text-5xl w-3/4 z-10 text-center">
               Ready to take your digital presence to the next level?
             </div>
             <div className="absolute z-500">
-              {/* <Lottie
+              <Lottie
                 options={{
                   loop: clicked,
                   autoplay: clicked,
@@ -51,7 +58,7 @@ export default function Footer() {
                     preserveAspectRatio: "xMidYMid slice",
                   },
                 }}
-              /> */}
+              />
             </div>
             <div className="z-300">
               <MagicButton
@@ -62,7 +69,6 @@ export default function Footer() {
               />
             </div>
           </div>
-          {/* </div> */}
         </div>
       </div>
       <div className="flex w-[80%] mt-16 md:flex-row justify-between items-center gap-9 flex-col-reverse">
