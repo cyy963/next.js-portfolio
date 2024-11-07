@@ -14,10 +14,7 @@ export default withSentryConfig(nextConfig, {
 silent: true,
 org: "cyruskywalkerdesign",
 project: "javascript-nextjs",
-
-// Only print logs for uploading source maps in CI
-silent: !process.env.CI,
-
+}, {
 // For all available options, see:
 // https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/
 
