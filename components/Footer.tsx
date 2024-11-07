@@ -42,7 +42,7 @@ export default function Footer() {
               Ready to take your digital presence to the next level?
             </div>
             <div className="absolute z-500">
-              <Lottie
+              {/* <Lottie
                 options={{
                   loop: clicked,
                   autoplay: clicked,
@@ -51,7 +51,7 @@ export default function Footer() {
                     preserveAspectRatio: "xMidYMid slice",
                   },
                 }}
-              />
+              /> */}
             </div>
             <div className="z-300">
               <MagicButton
