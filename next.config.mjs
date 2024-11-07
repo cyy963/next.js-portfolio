@@ -10,6 +10,8 @@ export default withSentryConfig(nextConfig, {
 // For all available options, see:
 // https://github.com/getsentry/sentry-webpack-plugin#options
 
+// Suppresses source map uploading logs during build
+silent: true,
 org: "cyruskywalkerdesign",
 project: "javascript-nextjs",
 
