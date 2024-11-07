@@ -88,14 +88,15 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://zoom-case-study.vercel.app/",
   },
-  // {
-  //   id: 3,
-  //   title: "Dynamic Photography Portfolio",
-  //   des: "Showcase your best photography work with this visually stunning and interactive portfolio, built to highlight images in a dynamic and engaging way.",
-  //   img: "/photography-portfolio.png",
-  //   iconLists: ["/re.svg"],
-  //   link: "https://skywalker-photography.vercel.app/",
-  // },
+  {
+    id: 3,
+    title: "Modern SaaS Landing Page",
+    des: "Xora is a Modern UI/UX SaaS website developed using React.js and Tailwind CSS that exemplifies modern UI/UX principles. Its sleek design, seamless animations, and overall user experience set a high standard, serving as a reference or inspiration for future modern applications or websites in general.",
+    img: "/saas-landing-page-ss.png",
+    iconLists: ["/re.svg", "/tail.svg"],
+    link: "https://saas-landing-page-xora.vercel.app/",
+  }
+  
   // {
   //   id: 4,
   //   title: "AI Image SaaS - Canva Application",
