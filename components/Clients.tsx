@@ -4,16 +4,16 @@ import { InfiniteMovingCards } from "./ui/InfiniteMovingCards";
 export default function Clients() {
   return (
     <div className="my-28" id="testimonials">
-      <h1 className="heading">
+      {/* <h1 className="heading">
         Kind Words from <span className="bg-custom-gradient bg-clip-text text-transparent animate-gradient-move bg-[length:200%_200%]">Clients & Mentors</span>
-      </h1>
+      </h1> */}
       <div className="flex flex-col items-center max-lg: mt-16">
-        <InfiniteMovingCards
+        {/* <InfiniteMovingCards
           items={testimonials}
           direction="right"
           speed="slow"
-        />
-        <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg: mt-10 ">
+        /> */}
+        <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16">
           {companies.map(({ id, img, name, }) => (
             <div key={id} className="flex md:max-w-60 max-w-32 gap-2">
               <img src={img} alt={name} className="md:w-40 w-28" />
