@@ -24,7 +24,7 @@ export default function Footer() {
     }, 5000); // 3000 ms = 3 seconds
   };
   return (
-    <footer className="w-full mt-16 mb-14" id="contact">
+    <footer className="w-full flex flex-col items-center mt-16 mb-20" id="contact">
       <div className="flex flex-col items-center justify-center gap-10">
         {/* <h1 className="heading lg:max-w-[45vw]">
           Ready to take{" "}
@@ -65,7 +65,7 @@ export default function Footer() {
           {/* </div> */}
         </div>
       </div>
-      <div className="flex mt-16 md:flex-row justify-between items-center gap-9 flex-col-reverse">
+      <div className="flex w-[80%] mt-16 md:flex-row justify-between items-center gap-9 flex-col-reverse">
         <p className="md:text-base text-sm md:font-normal font-light">
           Copyright © 2024 Cyruskywalker.Design
         </p>
