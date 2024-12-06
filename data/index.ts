@@ -82,11 +82,11 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://zoom-case-study.vercel.app/",
+    title: "An Awwwards Winning Website",
+    des: "A visually captivating website inspired by Zentry, featuring scroll-triggered animations, geometric transitions, and engaging video storytelling. Learn how to deliver a luxurious, modern feel, focusing on engaging UI/UX and smooth responsiveness, capturing the essence of what makes an Awwwards winner.",
+    img: "/zentry.png",
+    iconLists: ["/re.svg", "/tail.svg", "/gsap.svg"],
+    link: "https://award-winning-website-study.vercel.app/",
   },
   {
     id: 3,
@@ -95,7 +95,15 @@ export const projects = [
     img: "/saas-landing-page-ss.png",
     iconLists: ["/re.svg", "/tail.svg"],
     link: "https://saas-landing-page-xora.vercel.app/",
-  }
+  },
+  {
+    id: 4,
+    title: "Yoom - Video Conferencing App",
+    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    img: "/p2.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "https://zoom-case-study.vercel.app/",
+  },
   
   // {
   //   id: 4,
